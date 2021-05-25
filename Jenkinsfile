@@ -1,2 +1,5 @@
-@Library('first-shared-lib') _
-welcomeJob ‘lambdatest’
+@Library('pipeline-library-demo')_
+stage('Demo') {
+    echo 'Hello world'
+    sayHello 'Sanku'
+}
